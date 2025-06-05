@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --lasakedu-in-font-awesome-5-brands-regular-font-family: "Font Awesome 5 Brands",
+    Helvetica;
+  --lasakedu-in-font-awesome-5-brands-regular-font-size: 22px;
+  --lasakedu-in-font-awesome-5-brands-regular-font-style: normal;
+  --lasakedu-in-font-awesome-5-brands-regular-font-weight: 400;
+  --lasakedu-in-font-awesome-5-brands-regular-letter-spacing: 0px;
+  --lasakedu-in-font-awesome-5-brands-regular-line-height: 42px;
+  --lasakedu-in-font-awesome-5-free-regular-font-family: "Font Awesome 5 Free",
+    Helvetica;
+  --lasakedu-in-font-awesome-5-free-regular-font-size: 16px;
+  --lasakedu-in-font-awesome-5-free-regular-font-style: normal;
+  --lasakedu-in-font-awesome-5-free-regular-font-weight: 400;
+  --lasakedu-in-font-awesome-5-free-regular-letter-spacing: 0px;
+  --lasakedu-in-font-awesome-5-free-regular-line-height: 16px;
+  --lasakedu-in-inter-bold-font-family: "Inter", Helvetica;
+  --lasakedu-in-inter-bold-font-size: 18.2109375px;
+  --lasakedu-in-inter-bold-font-style: normal;
+  --lasakedu-in-inter-bold-font-weight: 700;
+  --lasakedu-in-inter-bold-letter-spacing: 0px;
+  --lasakedu-in-inter-bold-line-height: 20px;
+  --lasakedu-in-inter-regular-font-family: "Inter", Helvetica;
+  --lasakedu-in-inter-regular-font-size: 12.390625px;
+  --lasakedu-in-inter-regular-font-style: normal;
+  --lasakedu-in-inter-regular-font-weight: 400;
+  --lasakedu-in-inter-regular-letter-spacing: 0px;
+  --lasakedu-in-inter-regular-line-height: 24px;
+  --lasakedu-in-roboto-italic-underline-font-family: "Roboto", Helvetica;
+  --lasakedu-in-roboto-italic-underline-font-size: 16px;
+  --lasakedu-in-roboto-italic-underline-font-style: italic;
+  --lasakedu-in-roboto-italic-underline-font-weight: 400;
+  --lasakedu-in-roboto-italic-underline-letter-spacing: 0px;
+  --lasakedu-in-roboto-italic-underline-line-height: 30px;
+  --lasakedu-in-roboto-medium-font-family: "Roboto", Helvetica;
+  --lasakedu-in-roboto-medium-font-size: 14px;
+  --lasakedu-in-roboto-medium-font-style: normal;
+  --lasakedu-in-roboto-medium-font-weight: 500;
+  --lasakedu-in-roboto-medium-letter-spacing: 0px;
+  --lasakedu-in-roboto-medium-line-height: normal;
+  --lasakedu-in-roboto-regular-font-family: "Roboto", Helvetica;
+  --lasakedu-in-roboto-regular-font-size: 75px;
+  --lasakedu-in-roboto-regular-font-style: normal;
+  --lasakedu-in-roboto-regular-font-weight: 400;
+  --lasakedu-in-roboto-regular-letter-spacing: 0px;
+  --lasakedu-in-roboto-regular-line-height: 85px;
+  --lasakedu-in-roboto-regular-title-font-family: "Roboto", Helvetica;
+  --lasakedu-in-roboto-regular-title-font-size: 15px;
+  --lasakedu-in-roboto-regular-title-font-style: normal;
+  --lasakedu-in-roboto-regular-title-font-weight: 400;
+  --lasakedu-in-roboto-regular-title-letter-spacing: 0px;
+  --lasakedu-in-roboto-regular-title-line-height: 30px;
+  --lasakedu-in-roboto-regular-underline-font-family: "Roboto", Helvetica;
+  --lasakedu-in-roboto-regular-underline-font-size: 16px;
+  --lasakedu-in-roboto-regular-underline-font-style: normal;
+  --lasakedu-in-roboto-regular-underline-font-weight: 400;
+  --lasakedu-in-roboto-regular-underline-letter-spacing: 0px;
+  --lasakedu-in-roboto-regular-underline-line-height: 30px;
+  --lasakedu-in-roboto-slab-regular-font-family: "Roboto Slab", Helvetica;
+  --lasakedu-in-roboto-slab-regular-font-size: 16.5px;
+  --lasakedu-in-roboto-slab-regular-font-style: normal;
+  --lasakedu-in-roboto-slab-regular-font-weight: 400;
+  --lasakedu-in-roboto-slab-regular-letter-spacing: 0px;
+  --lasakedu-in-roboto-slab-regular-line-height: 23.100000381469727px;
+  --lasakedu-in-semantic-button-font-family: "Roboto", Helvetica;
+  --lasakedu-in-semantic-button-font-size: 10px;
+  --lasakedu-in-semantic-button-font-style: normal;
+  --lasakedu-in-semantic-button-font-weight: 400;
+  --lasakedu-in-semantic-button-letter-spacing: 0px;
+  --lasakedu-in-semantic-button-line-height: 14px;
+  --lasakedu-in-semantic-heading-2-font-family: "Roboto Slab", Helvetica;
+  --lasakedu-in-semantic-heading-2-font-size: 40px;
+  --lasakedu-in-semantic-heading-2-font-style: normal;
+  --lasakedu-in-semantic-heading-2-font-weight: 600;
+  --lasakedu-in-semantic-heading-2-letter-spacing: 0px;
+  --lasakedu-in-semantic-heading-2-line-height: 64px;
+  --lasakedu-in-semantic-heading-3-font-family: "Roboto Slab", Helvetica;
+  --lasakedu-in-semantic-heading-3-font-size: 18px;
+  --lasakedu-in-semantic-heading-3-font-style: normal;
+  --lasakedu-in-semantic-heading-3-font-weight: 600;
+  --lasakedu-in-semantic-heading-3-letter-spacing: 0px;
+  --lasakedu-in-semantic-heading-3-line-height: 28.799999237060547px;
+  --lasakedu-in-semantic-heading-5-font-family: "Roboto Slab", Helvetica;
+  --lasakedu-in-semantic-heading-5-font-size: 18px;
+  --lasakedu-in-semantic-heading-5-font-style: normal;
+  --lasakedu-in-semantic-heading-5-font-weight: 500;
+  --lasakedu-in-semantic-heading-5-letter-spacing: 0px;
+  --lasakedu-in-semantic-heading-5-line-height: 28.799999237060547px;
+  --lasakedu-in-semantic-input-font-family: "Roboto", Helvetica;
+  --lasakedu-in-semantic-input-font-size: 13px;
+  --lasakedu-in-semantic-input-font-style: normal;
+  --lasakedu-in-semantic-input-font-weight: 400;
+  --lasakedu-in-semantic-input-letter-spacing: 0px;
+  --lasakedu-in-semantic-input-line-height: normal;
+  --lasakedu-in-semantic-item-font-family: "Roboto", Helvetica;
+  --lasakedu-in-semantic-item-font-size: 16px;
+  --lasakedu-in-semantic-item-font-style: normal;
+  --lasakedu-in-semantic-item-font-weight: 400;
+  --lasakedu-in-semantic-item-letter-spacing: 0px;
+  --lasakedu-in-semantic-item-line-height: 19.5px;
+  --lasakedu-in-semantic-link-font-family: "Font Awesome 5 Free", Helvetica;
+  --lasakedu-in-semantic-link-font-size: 11px;
+  --lasakedu-in-semantic-link-font-style: normal;
+  --lasakedu-in-semantic-link-font-weight: 400;
+  --lasakedu-in-semantic-link-letter-spacing: 0px;
+  --lasakedu-in-semantic-link-line-height: 24px;
+  --lasakeduinabbey: rgba(84, 89, 95, 1);
+  --lasakeduinalabaster: rgba(249, 249, 249, 1);
+  --lasakeduinalto: rgba(224, 224, 224, 1);
+  --lasakeduinaquamarine-blue: rgba(110, 193, 228, 1);
+  --lasakeduinblack: rgba(0, 0, 0, 1);
+  --lasakeduinblack-10: rgba(0, 0, 0, 0.1);
+  --lasakeduinblack-50: rgba(0, 0, 0, 0.5);
+  --lasakeduinblack-60: rgba(0, 0, 0, 0.6);
+  --lasakeduinblack-haze: rgba(248, 249, 249, 1);
+  --lasakeduinboulder: rgba(122, 122, 122, 1);
+  --lasakeduinbuttercup: rgba(246, 172, 28, 1);
+  --lasakeduinchambray: rgba(59, 89, 152, 1);
+  --lasakeduinchateau-green: rgba(52, 168, 83, 1);
+  --lasakeduincinnabar: rgba(233, 66, 53, 1);
+  --lasakeduincod-gray: rgba(12, 12, 12, 1);
+  --lasakeduincornflower-blue: rgba(66, 133, 244, 1);
+  --lasakeduindeep-cerulean: rgba(0, 119, 181, 1);
+  --lasakeduindenim: rgba(21, 79, 193, 1);
+  --lasakeduindove-gray: rgba(102, 102, 102, 1);
+  --lasakeduindusty-gray: rgba(155, 155, 155, 1);
+  --lasakeduinemperor: rgba(85, 85, 85, 1);
+  --lasakeduingallery: rgba(235, 235, 235, 1);
+  --lasakeduingallery-90: rgba(237, 237, 237, 0.9);
+  --lasakeduingray: rgba(135, 135, 135, 1);
+  --lasakeduinmatisse: rgba(18, 114, 155, 1);
+  --lasakeduinmercury: rgba(233, 233, 233, 1);
+  --lasakeduinmine-shaft: rgba(35, 35, 35, 1);
+  --lasakeduinred: rgba(243, 10, 10, 1);
+  --lasakeduinroyal-blue: rgba(31, 103, 231, 1);
+  --lasakeduinscorpion: rgba(91, 91, 91, 1);
+  --lasakeduinsea-buckthorn: rgba(251, 142, 40, 1);
+  --lasakeduinselective-yellow: rgba(255, 182, 6, 1);
+  --lasakeduinship-gray: rgba(69, 68, 75, 1);
+  --lasakeduinsilver-chalice: rgba(170, 170, 170, 1);
+  --lasakeduinthunder: rgba(35, 32, 35, 1);
+  --lasakeduinthunderbird: rgba(205, 32, 31, 1);
+  --lasakeduinwestar: rgba(229, 227, 223, 1);
+  --lasakeduinwhite: rgba(255, 255, 255, 1);
+  --lasakeduinwhite-02: rgba(255, 255, 255, 0.0);
+  --lasakeduinwhite-14: rgba(255, 255, 255, 0.14);
+  --lasakeduinwhite-white: rgba(255, 255, 255, 1);
+  --lasakeduinwild-sand: rgba(245, 245, 245, 1);
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* ========================================================================== */
+/* TrustIndex Widget Override - Attempt to force inline positioning           */
+/* ========================================================================== */
+/*
+  IMPORTANT: The selector used below (targeting the first child of your
+  data-attribute div) is a common approach. However, if TrustIndex
+  has a very specific and stable outermost class for its widget, using that
+  might be another option. You should verify the actual structure and
+  problematic CSS rules by inspecting the widget in your browser if this
+  doesn't fully resolve the issue.
+*/
+
